@@ -10,7 +10,7 @@ GROUP BY 컬럼명                -----------(3)
 HAVING 그룹 조건                -----------(4)
 ORDER BY 컬럼명                -----------(6)
 ~~~~
-<U>**순서: FROM and JOIN -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY desc -> LIMIT**</U>
+**<U>순서: FROM and JOIN -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY desc -> LIMIT</U>**
 1) FROM: SQL은 구문이 들어오면 테이블을 가장 먼저 확인한다.
 2) WHERE: 테이블명을 확인 뒤, 테이블에서 주어진 조건에 맞는 데이터들을 추출한다.
 3) GROUP BY: 조건에 맞는 데이터가 추출한 뒤, 공통적인 데이터들끼리 묶어 그룹을 만들어 준다.
