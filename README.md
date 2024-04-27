@@ -160,7 +160,7 @@ date_format(now(), '%D %y %a %d %m %n %j');
 ~~~~
 * DATE_FORMAT(): 전달받은 형식에 맞춰 날짜와 시간 정보를 문자열로 반환
 
-## ** 기타 **
+## 기타
 ### 1) DISTINCT
 ~~~~sql
 SELECT DISTINCT addr
