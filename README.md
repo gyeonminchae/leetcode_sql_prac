@@ -74,7 +74,7 @@ SELECT * FROM member WHERE mem_name LIKE '%블%';
   - _:한 글자만
   - %: 몇 글자든
  
-## ** 집계 함수 **
+## 집계 함수
 1) SUM(): 컬럼의 합계를 반환
 2) AVG(): 컬럼의 평균을 반환
 3) MIN(): 컬럼의 최소값을 반환
@@ -95,7 +95,7 @@ SELECT COUNT(phone1)
 * COUNT(*) 연산은 모든 row를 대상으로 이루어지기 때문에 NULL값이 포함되어있어도 카운트됨
 * COUNT(컬럼명)연산은 컬럼명값에 NULL이 있을 경우 카운트하지 않음
 
-## **범위 표현식**
+## 범위 표현식
 ### 1) BETWEEN
 ~~~~sql
 SELECT * FROM member
@@ -187,7 +187,7 @@ where 컬럼명 > ANY(
 ~~~~
 * 서브쿼리의 여러 개의 결과 중 한 가지만 만족해도 가능
 
-##### ANY
+##### ALL
 ~~~~sql
 select *
 from 테이블명
